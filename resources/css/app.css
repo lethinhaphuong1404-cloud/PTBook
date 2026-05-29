@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+body {
+  background-color: #141414;
+  font-family: Arial, sans-serif;
+}
+@layer base {
+    body {
+        font-family: 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased; /* Giúp chữ Roboto trông mảnh và sắc nét hơn */
+    }
+}
